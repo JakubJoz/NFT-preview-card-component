@@ -47,3 +47,20 @@ p{
     opacity: 50%;
     word-spacing: 2px;
 }
+
+.informations{
+    margin-left: 27px;
+    margin-right: 27px;
+    font-weight: 400;
+    word-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.time{
+    color: hsl(215, 51%, 70%);
+}
