@@ -73,3 +73,28 @@ hr{
     margin-right: 27px;
     margin-top: 30px;
 }
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+.avatar-img{
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 27px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.text{
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a{
+    opacity: 50%;
+}
