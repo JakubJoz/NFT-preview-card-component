@@ -23,12 +23,41 @@ body{
 
 .img{
     margin-top: 27px;
-    text-align: center;
+    background-color: hsl(178, 100%, 50%);
+    width: 348px;
+    height: 348px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img:hover .nft-img{
+    opacity: 0.4;
+    cursor: pointer;
 }
 
 .nft-img{
-    width: 87%;
+    width: 348px;
+    height: 348px;
     border-radius: 10px;
+    opacity: 1;
+    transition: 0.2s;
+    justify-content: center;
+}
+
+.eye-icon{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.img:hover .eye-icon{
+    opacity: 1;
 }
 
 header{
@@ -37,6 +66,12 @@ header{
     color: white;
     margin-left: 27px;
     margin-top: 10px;
+    transition: 0.2s;
+}
+
+header:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 p{
@@ -95,6 +130,15 @@ footer{
     font-weight: 300;
 }
 
-a{
+.opacity{
     opacity: 50%;
+}
+
+.name{
+    transition: 0.2s;
+}
+
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
